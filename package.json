@@ -1,6 +1,10 @@
 {
   "name": "@kutsan/prettier-config",
   "version": "1.0.0",
+  "description": "Prettier configuration for my projects",
+  "repository": "github:kutsan/prettier-config",
+  "license": "MIT",
+  "author": "Kutsan Kaplan <me@kutsan.dev> (https://kutsan.dev)",
   "type": "module",
   "exports": "./dist/index.js",
   "files": [
