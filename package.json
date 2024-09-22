@@ -1,0 +1,30 @@
+{
+  "name": "@kutsan/prettier-config",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "format": "prettier --write --list-different .",
+    "lint": "pnpm run lint:typescript && pnpm run lint:prettier",
+    "lint:prettier": "prettier --ignore-path .gitignore --check .",
+    "lint:typescript": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "prettier-plugin-packagejson": "^2.5.2"
+  },
+  "devDependencies": {
+    "@kutsan/typescript-config": "^1.0.0",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.2"
+  },
+  "peerDependencies": {
+    "prettier": ">=3"
+  }
+}

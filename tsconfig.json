@@ -1,0 +1,7 @@
+{
+  "extends": "@kutsan/typescript-config/node.json",
+  "compilerOptions": {
+    "rootDir": "./src"
+  },
+  "include": ["src/"]
+}

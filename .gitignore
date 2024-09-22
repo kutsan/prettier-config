@@ -1,0 +1,11 @@
+# Dependency directories
+/node_modules/
+
+# macOS files
+.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Generated output
+/dist/
