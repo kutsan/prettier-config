@@ -5,11 +5,11 @@
 Install the config package:
 
 ```sh
-npm install @kutsan/prettier-config --save-dev
+npm add --save-dev @kutsan/prettier-config
 ```
 
-Then use it in your `prettier.config.js` file:
+Then use it in your `prettier.config.ts` file:
 
-```javascript
+```typescript
 export { config as default } from '@kutsan/prettier-config'
 ```
