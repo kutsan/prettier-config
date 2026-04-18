@@ -2,7 +2,10 @@
   "name": "@kutsan/prettier-config",
   "version": "1.1.0",
   "description": "Prettier configuration for my projects",
-  "repository": "github:kutsan/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kutsan/prettier-config.git"
+  },
   "license": "MIT",
   "author": "Kutsan Kaplan <me@kutsan.dev> (https://kutsan.dev)",
   "type": "module",
@@ -48,7 +51,7 @@
     },
     "packageManager": {
       "name": "pnpm",
-      "onFail": "error"
+      "onFail": "warn"
     }
   }
 }
