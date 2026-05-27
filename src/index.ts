@@ -17,7 +17,7 @@ export const config = {
   plugins: [packageJsonPlugin, sortImportsPlugin] as const,
 
   // sort-imports options
-  importOrder: ['^\\w|^@\\w', '^@/', '.'] as const,
+  importOrder: ['^\\w|^@\\w', '^[@#]\\/', '.'] as const,
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
 } satisfies PrettierConfig
