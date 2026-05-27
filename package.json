@@ -24,7 +24,8 @@
     "check:format": "prettier --check .",
     "check:lint": "eslint --max-warnings=0",
     "check:types": "tsc",
-    "format": "prettier --write --list-different ."
+    "format": "prettier --write --list-different .",
+    "prepack": "pnpm run build"
   },
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
