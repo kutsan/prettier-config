@@ -32,9 +32,9 @@
     "prettier-plugin-packagejson": "^3.0.2"
   },
   "devDependencies": {
-    "@kutsan/eslint-config": "^1.5.0",
-    "@kutsan/typescript-config": "^2.1.0",
-    "@types/node": "^25.6.0",
+    "@kutsan/eslint-config": "^2.0.5",
+    "@kutsan/typescript-config": "^2.2.0",
+    "@types/node": "^25.9.1",
     "eslint": "^9",
     "prettier": "^3.5.3",
     "rimraf": "^6.1.3",
